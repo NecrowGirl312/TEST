@@ -1,0 +1,171 @@
+
+/* Mon code
+
+body{margin-top:0px;
+    background-color:#0d0d0e;
+    color:#d90e37;
+    text-align: center;
+    }
+
+.logo {
+    position:absolute;
+    margin-top: -25px;
+    }    
+    
+.panier {
+    position:absolute;
+    margin-top: -2px;
+    margin-left: 1285px;
+        }    
+
+.image-container img {
+    margin: 70px; /* Espace entre les images, ajustez selon vos besoins 
+    margin-bottom: -40px;
+    padding: 30px;
+}
+    
+header {
+    background-color: #8e7ded;
+    color: #40f20f;
+    padding: 50px;
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -40px;
+    padding: 30px;
+}  
+    
+.card-body{
+    margin: 20px;
+    padding: 30px;
+}
+        
+body{margin-top:20px;
+    background-color:#f2f6fc;
+    color:#69707a;
+}
+.img-account-profile {
+    height: 10rem;
+}
+.rounded-circle {
+    border-radius: 50% !important;
+}
+.card {
+    box-shadow: 0 0.15rem 1.75rem 0 rgb(33 40 50 / 15%);
+}
+
+.card .card-header {
+    font-weight: 500;
+}
+        .card-header:first-child {
+            border-radius: 0.35rem 0.35rem 0 0;
+        }
+        .card-header {
+            padding: 1rem 1.35rem;
+            margin-bottom: 0;
+            background-color: rgba(33, 40, 50, 0.03);
+            border-bottom: 1px solid rgba(33, 40, 50, 0.125);
+        }
+        .form-control, .dataTable-input {
+            display: block;
+            width: 100%;
+            padding: 0.875rem 1.125rem;
+            font-size: 0.875rem;
+            font-weight: 400;
+            line-height: 1;
+            color: #69707A;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid #C5CCD6;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            border-radius: 0.35rem;
+            transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+        }
+        .nav-borders .nav-link.active {
+            color: #0061F2;
+            border-bottom-color: #0061F2;
+        }
+        .nav-borders .nav-link {
+            color: #69707A;
+            border-bottom-width: 0.125rem;
+            border-bottom-style: solid;
+            border-bottom-color: transparent;
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+            padding-left: 0;
+            padding-right: 0;
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
+
+        /* Styles généraux */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #111111;
+    color:#f5f2f2;
+}
+
+.container {
+    max-width: 100px;
+    margin : 20px auto;
+}
+
+/* Barre de navigation */
+.navbar {
+    background-color: #851414;
+    border: none;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #efeded;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: #ffd700; /* Couleur jaune pour la surbrillance au survol */
+}
+
+/* Formulaire de recherche */
+.navbar-form {
+    margin-top: 10px;
+}
+
+.input-group-addon {
+    background-color: #0b0b0b;
+    border: none;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+/* Panier d'achat */
+.card-header {
+    float: right;
+    margin-top: 15px;
+}
+
+#panier-icon {
+    cursor: pointer;
+}
+
+#panier-count {
+    background-color: #333;
+    color: #fff;
+    border-radius: 50%;
+    padding: 5px 10px;
+    font-size: 12px;
+    position: relative;
+    top: -10px;
+}
+
+.image-container img {
+    margin: 40px; /* Espace entre les images, ajustez selon vos besoins */
+    margin-bottom: 40px;
+    padding: 10px;
+}

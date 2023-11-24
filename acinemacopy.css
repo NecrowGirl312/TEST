@@ -1,0 +1,86 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.image-container {
+    display: flex;
+    text-align: left;
+    margin-left:30px;
+}
+
+.image-container img {
+    margin: 50px; /* Espace entre les images, ajustez selon vos besoins */
+}
+
+
+
+/* css Adel */
+#section_index2
+{
+    text-align: left;
+    margin-left:30px;
+}
+.section_index_sortie > div
+{
+    display: flex; /* Ajoutez cette propriété pour aligner horizontalement */
+    justify-content: center; /* Centre les éléments horizontalement */
+    flex-wrap: wrap; /* Permet de passer à la ligne si nécessaire */
+}
+.image-container
+{
+    width: 15%; /* Ajusté pour trois images sur une ligne */
+    overflow: hidden;
+    padding-bottom: 2%;
+    position: relative;
+    margin: 10px; /* Ajustez selon vos besoins */
+}
+.image-container img
+{
+    width: 100%;
+    height: auto; /* Modifiez pour 'auto' pour conserver le ratio d'aspect */
+    object-fit: cover;
+    border-radius: 15px; /* Ajoutez cette ligne pour des bords arrondis */
+}
+
+
+
+.img-account-profile {
+    height: 10rem;
+}
+.rounded-circle {
+    border-radius: 50% !important;
+}
+.card {
+    box-shadow: 0 0.15rem 1.75rem 0 rgb(33 40 50 / 15%);
+}
+.card .card-header {
+    font-weight: 900;
+}
+.card-header:first-child {
+    border-radius: 0.35rem 0.35rem 0 0;
+}
+
+.form-control, .dataTable-input {
+    display: block;
+    width: 100%;
+    padding: 0.875rem 1.125rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1;
+    color: #69707A;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #C5CCD6;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.35rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.nav-borders .nav-link.active {
+    color: #0061F2;
+    border-bottom-color: #0061F2;
+}
